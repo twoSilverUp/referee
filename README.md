@@ -1,12 +1,4 @@
 # Referee: Reference-aware Audiovisual Deepfake Detection
-Hyemin Boo<sup>\*</sup>, Eunsang Lee<sup>\*</sup>, Jiyoung Lee<sup>†</sup>
-
-<sup>\*</sup>Equal contribution
-<sup>†</sup>Corresponding author
-
-<div>
-	<a href="https://arxiv.org/abs/2510.27475"><img src="https://img.shields.io/badge/arXiv-2510.27475-b31b1b.svg" height=22.5></a>
-</div>
 
 
 ## Abstract
@@ -56,10 +48,8 @@ This project requires pretrained checkpoints to run training, evaluation, or fin
   Download the Synchformer checkpoint trained on **LRS3** from the [link](https://github.com/v-iashin/Synchformer) and place it in the `model/pretrained/` directory.
 
 - **Evaluation or Fine-tuning Referee**  
-  To evaluate or fine-tune ***Referee***, download the provided checkpoint from the [link](https://huggingface.co/eunsanglee/Referee/tree/main)  and put it into the `model/pretrained/` directory.
+  To evaluate or fine-tune ***Referee***, download the provided checkpoint from the link(to ensure author anonymity, the link will be added after review)  and put it into the `model/pretrained/` directory.
 
-<!-- - **Training with Pretrained Synchformer**
-  To train the model starting from a Synchformer backbone, download the checkpoint trained on LRS3 from the [link](https://github.com/v-iashin/Synchformer) and place it in the `model/pretrained/` directory. -->
 
 
 ## Train
@@ -84,18 +74,6 @@ Once you have set all parameters as desired, you can start evaluating ***Referee
 sh scripts/test.sh
 ```
 
-## Citation
-
-If you find our work helpful or inspiring, please feel free to cite it:
-
-```bibtex
-@article{boo2025referee,
-  title={Referee: Reference-aware Audiovisual Deepfake Detection},
-  author={Boo, Hyemin and Lee, Eunsang and Lee, Jiyoung},
-  journal={arXiv preprint arXiv:2510.27475},
-  year={2025}
-}
-```
 
 ## Acknowledgement
 This project heavily references the implementation of [Synchformer](https://github.com/v-iashin/Synchformer).
